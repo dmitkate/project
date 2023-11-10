@@ -9,11 +9,11 @@
     }
   }
   
-@media (min-width: 1440px) {
+/*@media (min-width: 1440px) {
     body {
       
     }
-  }
+  }*/
 
 .card-item{
     background-color: var(--dark-gray-200);
