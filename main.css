@@ -165,6 +165,21 @@ padding-top: 7px;
   margin-bottom: 65px;
   font-size: 12.5px;
 }
+.description{
+  font-size: 12.5px;
+  padding-bottom: 38px;
+}
+.description_btn{
+  background-color: var(--orange);
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+  width: 28px;
+  height: 28px;
+  margin-top: 23px;
+}
+
+
 .information{
   font-size: 12.5px;
   padding: 26px 14px;
@@ -186,14 +201,15 @@ padding-top: 7px;
 .response{
   padding: 26px 14px;
   margin-bottom: 11px;
+  font-size: 12.5px;
 }
 
 .btn{
     margin: 0 auto 41px;
-    max-width: 130px;
-    padding: 5px 22px 2px 19px;
+    max-width: 100px; 
+    padding: 5px 22px 5px 19px;
     border-width: 0px;
-    font-size: 15px;
+    font-size: 9.58px;
     line-height: 1.057;
     font-weight: bold;
     text-transform: uppercase;
@@ -207,40 +223,48 @@ padding-top: 7px;
   background-color: #fff;
   display: flex;
   flex-direction: column;
-  padding: 11px 24px;
+ 
+  padding: 10px 23px 9px 54px;
   margin-bottom: 7px;
 }
 .sale__item__h4 {
-  font-size: 31.23px;
+  font-size: 11.67px;
+  margin-bottom: 9px;
   font-weight: bold;
   font-variant: small-caps;
 }
 .sale__content{
   display: flex;
+  justify-content: space-between;
+}
+.sale__item__img{
+  height: 120px;
 }
 .sale__item__p{
-  font-size: 27px;
+  font-size: 11.67px;
   
   font-variant: small-caps;
 
 }
 .sale__item__p-bold{
-  font-size: 27px;  
+  font-size: 11.67px;  
   font-weight: bold;
   font-variant: small-caps;
-
+  margin: 10px 0;
 }
 
 .sale__title {
-  font-size: 40px;
- background-color: var(--orange) ;
-  color: rgb(1, 1, 1);
+  font-size: 16.67px;
+  background-color: var(--orange) ;
+  color: var(--black);
   font-weight: bold;
   text-transform: uppercase;
-  
   text-align: left;
- 
+  margin-bottom: 14px;
+  padding: 5px 14px;
 }
+
+
 
 
 
