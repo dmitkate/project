@@ -10,12 +10,13 @@
     <article class="card-item">         
         <h2 class="card-item__title">Стакан паперовий Гофра-Хвиля Бурий 400ми 15шт/уп 091</h2>
         <p class="card-item__articul">Артикул: <span>44544</span></p>
-       
-            <img
-              src="./img/img_resize.jpg"
-              alt=""
-              class="card-item__img"
-            />
+        <picture  class="card-item__img">
+            <source srcset="./img/img_resize.jpg" media="(min-width: 1040px)">
+            <source srcset="./img/imgtabl.png" media="(min-width: 767px)">
+            <source srcset="./img/img.png" media="(max-width: 767px)">
+            <img src="./img/img_resize.jpg" alt="cartoon">
+          </picture>
+           
              
         
         <div  class="star"><img src="/img/star.svg" alt=""></div>

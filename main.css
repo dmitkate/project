@@ -124,7 +124,7 @@
 
 @media (max-width: 767px) {
   .card-item__img{
-    display: block;
+   /* display: block;*/
     margin-top: 15px;
     margin-bottom: 22px;
     width: 100%;
@@ -177,6 +177,7 @@
     display:flex;
     margin-bottom: 29px;
     grid-area: 3 / 2 / 4 / 3;
+    justify-content: space-between;
   }
   .card-item__btn-svg{
     width: 40px;
@@ -220,16 +221,12 @@
     display: flex;
     align-items: center;
     background-color: transparent;
-    font-size: 10.42px;  
+    font-size: 20.83px;  
     font-weight: bold;
     color: var(--white);
     font-variant: small-caps;
   }
-  .card-item__btn:first-child{
 
-    margin-right:93px;
-  
-  }
   .card-item__plusminus{
     display: flex;
     align-items: center;
@@ -1019,7 +1016,7 @@ background-color: var(--orange);
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, auto);
     background-color: #fff;  
-    padding: 18px 27px 18px 62px;
+    padding: 18px 27px 18px 54px;
    
   }
   .sale__content:last-child{
@@ -1123,7 +1120,7 @@ background-color: var(--orange);
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, auto);
     background-color: #fff;  
-    padding: 18px 27px 18px 62px;
+    padding: 18px 27px 18px 54px;
    
   }
   .sale__content:last-child{
