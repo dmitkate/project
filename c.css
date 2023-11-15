@@ -1,0 +1,8 @@
+:root {
+    --table-grays: #8f8c92;
+    --btn-green: #1eb946;
+   
+    --table-gray-color: var(--table-grays);
+    --btn-green-color: var(--btn-green);
+    
+}

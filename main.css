@@ -1,10 +1,9 @@
 @import url(index.css);
-
+@import url(c.css);
 @media (max-width: 767px) {
     body {
       display: block;   
-      color: #fff;
-      font-family: "Montserrat", sans-serif;
+      color:  var(--white);   
 
     }
     .card-item{
@@ -17,8 +16,7 @@
   body {
     display: block; 
     font-size: 16.67px;
-    color: #fff;
-  font-family: "Montserrat", sans-serif;
+    color:  var(--white); 
 
   }
   .card-item {
@@ -34,8 +32,7 @@
   body {
     display: block; 
     font-size: 20.83px;
-    color: #fff;
-  font-family: "Montserrat", sans-serif;
+    color: var(--white);
 
   }
   .card-item {
@@ -82,10 +79,15 @@
     color: var(--orange); 
     position: relative;   
   }
+  .menu-item a{ 
+    display: inline;
+    color: var(--orange); 
+   
+  }
   .card-item__title::after{      
     content: '' ;
     display: inline-block;    
-    background-color: white;
+    background-color:  var(--white);
     width: 65px;
     height: 15px;
     border-radius: 25px;
@@ -96,8 +98,7 @@
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .menu{   
-    font-family: 'Mulish', sans-serif;
-                                                
+    font-family: 'Mulish', sans-serif;                                                
     font-size: 16.67px;
     text-transform: uppercase;
     margin-bottom: 30px;
@@ -107,10 +108,15 @@
   .menu-item{
     display: inline;
    }
+   .menu-item a{ 
+    display: inline;
+    color: var(--orange); 
+   
+  }
   .menu-item::after{
    content:'>';
    padding: 0 7px;
-   font-family: 'Monserat';
+   font-family: "Montserrat", sans-serif;
   }
   .menu-item:last-child:after{
     content:'';
@@ -129,7 +135,7 @@
   .card-item__title::after{      
     content: '' ;
     display: inline-block;    
-    background-color: white;
+    background-color:  var(--white);
     width: 142px;
     height: 30px;
     border-radius: 25px;
@@ -151,10 +157,15 @@
   .menu-item{
     display: inline;
    }
+   .menu-item a{ 
+    display: inline;
+    color: var(--orange); 
+   
+  }
   .menu-item::after{
    content:'>';
    padding: 0 7px;
-   font-family: 'Monserat';
+   font-family: "Montserrat", sans-serif;
   }
   .menu-item:last-child:after{
     content:'';
@@ -173,7 +184,7 @@
   .card-item__title::after{      
     content: '' ;
     display: inline-block;    
-    background-color: white;
+    background-color:  var(--white);
     width: 142px;
     height: 30px;
     border-radius: 30px;
@@ -398,7 +409,7 @@
 .card-item__table-tr{
   padding: 6px 0;
   padding-left: 20px;
-  background-color: rgb(143, 140, 146);
+  background-color: var(--table-grays);
 }
 
 
@@ -414,7 +425,7 @@
       font-weight: bold;
       background-color: var(--blue-gray);
       font-size: 18.76px;
-      color: rgb(0, 0, 0);
+      color: var(--black);
       line-height: 0.939;
       text-transform: uppercase;
       width: 24px;
@@ -425,8 +436,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(255, 255, 255);
-    color: black;
+    background-color: var(--white);
+    color: var(--black);
     width: 24px;
     height: 23px;
     font-size: 10.61px;
@@ -447,8 +458,8 @@
       line-height: 1.057;
       font-weight: bold;
       text-transform: uppercase;
-      color: rgb(255, 255, 255);
-      background-color: rgb(141, 139, 144)
+      color: var(--white);
+      background-color: var(--table-grays);
     
   }
   .card-btn__orange{  
@@ -473,7 +484,7 @@
       font-weight: bold;
       background-color: var(--blue-gray);
       font-size: 42.21px;
-      color: rgb(0, 0, 0);
+      color:var(--black);
       line-height: 0.939;
       text-transform: uppercase;
       width: 50px;
@@ -484,8 +495,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(255, 255, 255);
-    color: black;
+    background-color: var(--white);
+    color: var(--black);
     width: 50px;
     height: 44px;
     font-size: 24px;
@@ -509,8 +520,8 @@
       line-height: 1.057;
       font-weight: bold;
       text-transform: uppercase;
-      color: rgb(255, 255, 255);
-      background-color: rgb(141, 139, 144)
+      color:  var(--white);
+      background-color: var(--table-grays);
   }
   .card-btn__orange{  
     width: 138px; 
@@ -535,8 +546,8 @@
   line-height: 1.057;
   font-weight: bold;
   text-transform: uppercase;
-  color: rgb(255, 255, 255);
-  background-color: rgb(141, 139, 144);
+  color:  var(--white);
+  background-color: var(--table-grays);
 }
 .card-btn__orange{  
 width: 138px; 
@@ -562,7 +573,7 @@ background-color: var(--orange);
       font-weight: bold;
       background-color: var(--blue-gray);
       font-size: 42.21px;
-      color: rgb(0, 0, 0);
+      color: var(--black) ;
       line-height: 0.939;
       text-transform: uppercase;
       width: 50px;
@@ -573,8 +584,8 @@ background-color: var(--orange);
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(255, 255, 255);
-    color: black;
+    background-color:  var(--white);
+    color: var(--black) ;
     width: 50px;
     height: 44px;
     font-size: 24px;
@@ -592,8 +603,8 @@ background-color: var(--orange);
       line-height: 1.057;
       font-weight: bold;
       text-transform: uppercase;
-      color: rgb(255, 255, 255);
-      background-color: rgb(141, 139, 144)
+      color: var(--white);
+      background-color: var(--table-grays);
   }
   .card-btn__orange{  
     width: 138px; 
@@ -632,6 +643,7 @@ background-color: var(--orange);
     font-size: 11.67px;
   }
   .wrap_info{
+    font-family: "Montserrat", sans-serif;
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
@@ -697,7 +709,7 @@ background-color: var(--orange);
         font-weight: bold;
         background-color: var(--blue-gray);
         font-size: 42.21px;
-        color: rgb(0, 0, 0);
+        color: var(--black) ;
         line-height: 0.939;
         text-transform: uppercase;
         width: 50px;
@@ -708,8 +720,8 @@ background-color: var(--orange);
       display: flex;
       align-items: center;
       justify-content: center;
-      background-color: rgb(255, 255, 255);
-      color: black;
+      background-color: var(--white);
+      color: var(--black) ;
       width: 50px;
       height: 44px;
       font-size: 24px;
@@ -736,7 +748,7 @@ background-color: var(--orange);
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .chardiscr_wrap{
    margin-top: 60px;
-   padding-bottom: 170px; 
+   padding: 0 20px 170px; 
    display: flex;
    
   }   
@@ -751,6 +763,9 @@ background-color: var(--orange);
 
 @media  (max-width: 768px)  {
   .characteristic{
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.2;
+    padding: 0 14px;
     position: relative;
     margin-top: 36px;
     margin-bottom: 65px;
@@ -765,6 +780,9 @@ background-color: var(--orange);
     top:36px;
   }
   .description{
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.2;
+    padding: 0 14px;
     font-size: 12.5px;
     margin-bottom: 38px;
   }
@@ -785,6 +803,8 @@ background-color: var(--orange);
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .characteristic{
+    font-family: "Montserrat", sans-serif;
+    line-height: 2;
    position: relative;
    margin: 0;
    font-size: 16.67px;
@@ -799,8 +819,9 @@ background-color: var(--orange);
     left: 125%;
     border-left: 1px solid var(--white);
   }
-  .description{
-    
+  .description{   
+    font-family: "Montserrat", sans-serif;
+    line-height: 2; 
     position: relative;
   }
   
@@ -823,6 +844,8 @@ background-color: var(--orange);
 
 @media (min-width: 1023px) {
   .characteristic{
+    font-family: "Montserrat", sans-serif;
+    line-height: 2;
    position: relative;
    margin: 0;
    margin-right: 110px;
@@ -837,7 +860,8 @@ background-color: var(--orange);
     border-left: 1px solid var(--white);
   }
   .description{
-    
+    font-family: "Montserrat", sans-serif;
+    line-height: 2;
     position: relative;
   }
   
@@ -861,9 +885,11 @@ background-color: var(--orange);
 
 @media (max-width: 768px) {
   .information{
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.2;
     font-size: 12.5px;
     padding: 26px 14px;
-    background-color: rgb(78, 77, 77);
+    background-color: var(--dark-gray-200);
     margin-bottom: 11px;
   }
   .information__title {
@@ -881,6 +907,8 @@ background-color: var(--orange);
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .information-wrap{ 
+    font-family: "Montserrat", sans-serif;
+    line-height: 2;
     display: grid;
     column-gap: 25px;
     grid-template-columns: 1.45fr 1.29fr 1fr; 
@@ -889,7 +917,7 @@ background-color: var(--orange);
     
   }
   .information{
-    background-color: rgb(78, 77, 77);
+    background-color: var(--dark-gray-200);
     padding: 35px 32px;
   }
   .information__title {
@@ -907,21 +935,22 @@ background-color: var(--orange);
 }
 @media  (min-width: 1023px) {
   .information-wrap{ 
+    font-family: "Montserrat", sans-serif;
+    line-height: 2;
     display: grid;
     column-gap: 25px;
     grid-template-columns: 1.45fr 1.29fr 1fr; 
-    /*grid-template-columns: 377px 336px 263px; */ 
     margin-bottom: 84px;
     
   }
   .information{
-    background-color: rgb(78, 77, 77);
+    background-color: var(--dark-gray-200);
     padding: 35px 32px;
   }
   .information__title {
     font-size: 21px;
     margin-bottom: 10px;
-    color: rgb(255, 184, 0);
+    color: var(--orange);
     font-weight: bold;
     text-transform: uppercase;
     text-align: left;
@@ -935,16 +964,17 @@ background-color: var(--orange);
 
 @media (max-width: 768px) {
   .response{
+    font-family: "Montserrat", sans-serif;
     padding: 26px 14px;
     margin-bottom: 11px;
-    font-size: 16.65px;
+    font-size: 12.5px;
     text-align:center;
 
   }
   .response__title{
     font-size: 16.67px;
     margin-bottom: 10px;
-    color: rgb(255, 184, 0);
+    color: var(--orange);
     font-weight: bold;
     text-transform: uppercase;
     text-align: left;
@@ -971,6 +1001,8 @@ background-color: var(--orange);
 
 @media (min-width: 1023px) {
   .response{
+    font-family: "Montserrat", sans-serif;
+    line-height: 2;
     padding: 0px 36px;
     margin-bottom: 71px;
    }
@@ -979,14 +1011,14 @@ background-color: var(--orange);
   }
   .response__title{
     font-size: 21px;
-    margin-bottom: 65px;
-    color: rgb(255, 184, 0);
+    margin-bottom: 10px;
+    color: var(--orange);
     font-weight: bold;
     text-transform: uppercase;
     text-align: left;
   }
   .btn{
-   
+    height: 58px;
     max-width: 193px; 
     padding: 5px 22px 5px 19px;
     border-width: 0px;
@@ -1000,6 +1032,8 @@ background-color: var(--orange);
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .response{
+    font-family: "Montserrat", sans-serif;
+    line-height: 2;
     padding: 0px 36px;
     margin-bottom: 71px;
    }
@@ -1008,8 +1042,8 @@ background-color: var(--orange);
   }
   .response__title{
     font-size: 21px;
-    margin-bottom: 65px;
-    color: rgb(255, 184, 0);
+    margin-bottom: 10px;
+    color: var(--orange);
     font-weight: bold;
     text-transform: uppercase;
     text-align: left;
@@ -1017,6 +1051,7 @@ background-color: var(--orange);
   .btn{
    
     max-width: 193px; 
+    height: 58px;
     padding: 5px 22px 5px 19px;
     border-width: 0px;
     margin-left: 38px;
@@ -1034,7 +1069,8 @@ background-color: var(--orange);
 
 @media(max-width: 768px) {
   .sale{
-    color: #000;
+    font-family: "Montserrat", sans-serif;
+    color: var(--black) ;
     padding-bottom: 40px;
   }
   .card-btn__sale{
@@ -1047,8 +1083,18 @@ background-color: var(--orange);
   text-transform: uppercase;
   background-color: var(--orange);
 }
+.card-btn__sale-green{
+  max-width: 100px; 
+  padding: 5px 16px;
+  border-width: 0px;
+  font-size: 9.58px;
+  line-height: 1.057;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: var(--btn-green);
+}
 .sale__item{
-  background-color: #fff;
+  background-color: var(--white);
   display: grid; 
   grid-template-columns: repeat(2, auto);
   grid-template-rows: repeat(2, auto);
@@ -1097,12 +1143,27 @@ background-color: var(--orange);
   margin-bottom: 14px;
   padding: 5px 14px;
 }
-
+.sale-help   button{
+  font-size: 17.7px;
+  width: 23px;
+  height: 21px;
+  
+  font-weight: bold;
+}
+.sale-help   div{
+  width: 23px;
+  height: 21px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10.36px;
+}
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .sale{
-    color: #000;
+    font-family: "Montserrat", sans-serif;
+    color: var(--black) ;
     padding-bottom: 74px;
   }
   .card-btn__sale{
@@ -1117,6 +1178,17 @@ background-color: var(--orange);
     text-transform: uppercase;
     background-color: var(--orange);
   }
+  .card-btn__sale-green{
+    grid-area: 2 / 2 / 3 / 3; 
+    text-align: center;
+    height: 44px;
+    border-width: 0px;
+    font-size: 16px;
+    line-height: 1.057;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: var(--btn-green);
+  }
   .sale__list{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -1127,8 +1199,8 @@ background-color: var(--orange);
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, auto);
-    background-color: #fff;  
-    padding: 18px 27px 18px 54px;
+    background-color: var(--white); 
+    padding: 18px 20px 18px 30px;
    
   }
   .sale__content:last-child{
@@ -1213,6 +1285,7 @@ background-color: var(--orange);
 
 @media (min-width: 1023px) {
   .sale{
+    font-family: "Montserrat", sans-serif;
     color: #000;
     padding-bottom: 74px;
   }
@@ -1228,6 +1301,18 @@ background-color: var(--orange);
     text-transform: uppercase;
     background-color: var(--orange);
   }
+  .card-btn__sale-green{
+    grid-area: 2 / 2 / 3 / 3; 
+    text-align: center;
+    height: 44px;
+    width: 124px;
+    border-width: 0px;
+    font-size: 16px;
+    line-height: 1.057;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: var(--btn-green);
+  }
   .sale__list{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -1238,7 +1323,7 @@ background-color: var(--orange);
     position: relative;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, auto);
-    background-color: #fff;  
+    background-color: var(--white);
     padding: 18px 27px 18px 54px;
    
   }
@@ -1250,7 +1335,7 @@ background-color: var(--orange);
     font-size: 14.77px;
     margin-bottom: 30px;
     text-align: center;
-    
+    margin-top: 30px;
     font-weight: bold;
     font-variant: small-caps;
   }
@@ -1348,7 +1433,7 @@ background-color: var(--orange);
     height: 36px;
     border-radius: 50%;
     background-color: var(--orange) ;
-    color: #0c0c0c; 
+    color: var(--black) ; 
     text-align: center;
      
   }
@@ -1376,7 +1461,7 @@ background-color: var(--orange);
     height: 60px;
     border-radius: 50%;
     background-color: var(--orange) ;
-    color: #0c0c0c; 
+    color: var(--black) ;
     text-align: center;
      
   }
@@ -1404,7 +1489,7 @@ background-color: var(--orange);
     height: 60px;
     border-radius: 50%;
     background-color: var(--orange) ;
-    color: #0c0c0c; 
+    color: var(--black) ;
     text-align: center;
      
   }
